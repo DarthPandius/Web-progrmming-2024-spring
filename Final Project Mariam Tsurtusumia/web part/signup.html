@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Final Project">
+    <meta name="keywords" content="HTML, CSS, php, Jquery">
+    <meta name="author" content="Mariam Tsurtsumia">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <title>Signup</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <header >
+        <h1>Welcome To My Gallery</h1>
+        <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="LogIn.php">Log In</a></li>
+                <li><a href="signup.html">Register</a></li>
+                <li><a href="about.html">Contact</a></li>
+                <li><a href="file-upload.php">Image Upload</a></li>
+                <li><a href="images.php">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Signup</h1>
+
+    <form action="signup-processing.php" method="post" id="signup">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+
+        <div>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </div>
+
+        <div>
+            <label for="password_confirmation">Repeat password</label>
+            <input type="password" id="password_confirmation" name="password_confirmation">
+        </div>
+
+        <button>Sign up</button>
+    </form>
+
+</body>
